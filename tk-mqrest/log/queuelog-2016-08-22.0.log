@@ -1,0 +1,15 @@
+2016-8-22 14:49:33|http-nio-8080-exec-4|ERROR||创建失败--------->nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'topicname' in 'class com.taikang.web.model.Config'|TopicController.java|218|
+2016-8-22 14:53:39|http-nio-8080-exec-6|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addConfig-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_config (id,callbackurl,sysid,callbackparam,createtime,configname) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|218|
+2016-8-22 14:54:39|http-nio-8080-exec-10|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addConfig-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_config (id,callbackurl,sysid,callbackparam,createtime,configname) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|218|

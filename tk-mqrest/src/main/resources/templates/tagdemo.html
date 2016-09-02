@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tag Demo</title>
+<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/tag/bootstrap-tags.min.js"></script>
+	<link rel="stylesheet" href="css/tag/bootstrap-combined.min.css" />
+	<link rel="stylesheet" href="css/tag/bootstrap-tags.css" />
+</head>
+<body>
+	<div class="container">
+
+		<h3>Bootstrap 2.3.2</h3>
+
+		<p>Small</p>
+		<div id="small"></div>
+		<p>Large</p>
+		<div id="large"></div>
+		<p>Medium</p>
+		<div id="medium"></div>
+		<p>maxNumTags = 3</p>
+		<div id="maxNumTags"></div>
+		<p>suggestOnClick</p>
+		<div id="suggestOnClick"></div>
+		<p>caseInsensitive</p>
+		<div id="caseInsensitive"></div>
+		<p>readOnly</p>
+		<div id="readOnly"></div>
+
+		<script>
+			$(function() {
+				Tags.bootstrapVersion = "2";
+				$("#small").tags(
+						{
+							tagSize : "sm",
+							suggestions : [ "alpha", "bravo", "charlie",
+									"delta", "echo", "foxtrot", "golf",
+									"hotel", "india" ],
+							tagData : [ "juliett", "kilo" ]
+						});
+				
+			});
+		</script>
+	</div>
+</body>
+</html>

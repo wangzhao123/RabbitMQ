@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tag Demo</title>
+<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/tag/bootstrap-tags.min.js"></script>
+	<link rel="stylesheet" href="css/tag/bootstrap-combined.min.css" />
+	<link rel="stylesheet" href="css/tag/bootstrap-tags.css" />
+</head>
+<body>
+	<div class="container">
+		<div id="suggestOnClick" style="width: 350px;">
+		<div class="tag label btn-info md"></div>
+		</div>
+		<script th:inline="javascript">
+			$(document).ready(function() {
+				var bindNames = [[${bindNames}]];//取值   
+				var allNames = [[${allNames}]];//取值   
+				Tags.bootstrapVersion = "2";
+				
+				$("#suggestOnClick").tags(
+						{
+							tagData:bindNames,
+							restrictTo : [ "alpha","bravo", "queueTest2",
+									"delta", "echo", "foxtrot", "golf",
+									"hotel", "india" ],
+							suggestions : allNames,
+							promptText : "添加关联队列",
+							suggestOnClick : true
+						});
+				
+			});
+		</script>
+	
+	</div>
+</body>
+</html>

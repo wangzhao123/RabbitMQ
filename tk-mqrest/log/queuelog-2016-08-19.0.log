@@ -1,0 +1,49 @@
+2016-8-19 10:59:05|http-nio-8080-exec-10|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addSystemInfo-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_infomation (id,syscode,sysname,createtime,createuser) values (?,?,?,?,?,)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1|TopicController.java|109|
+2016-8-19 16:42:31|http-nio-8080-exec-3|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|169|
+2016-8-19 16:42:50|http-nio-8080-exec-5|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|169|
+2016-8-19 16:44:59|http-nio-8080-exec-10|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|169|
+2016-8-19 16:44:59|http-nio-8080-exec-1|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|169|
+2016-8-19 16:45:31|http-nio-8080-exec-1|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|169|
+2016-8-19 16:46:10|http-nio-8080-exec-5|ERROR||创建失败--------->
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+### The error may involve com.taikang.web.mapper.TopicMapper.addTopic-Inline
+### The error occurred while setting parameters
+### SQL: insert into tk_sys_topic (id,topicname,topiccode,createuser,createtime,info) values (?,?,?,?,?,?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1|TopicController.java|170|

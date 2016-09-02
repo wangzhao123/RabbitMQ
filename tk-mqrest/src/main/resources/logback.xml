@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds">
+	
+	<logger name="com.taikang" level="DEBUG"></logger>
+
+  <!-- Simple file output -->  
+  <appender name="queuelog" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+    <encoder>  
+        <pattern>  
+            %d{yyyy-M-d HH:mm:ss}|%t|%p|%X{userId}|%m|%F|%L|%n
+        </pattern>  
+        <charset>UTF-8</charset>
+    </encoder>  
+  
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
+      <fileNamePattern>log/queuelog-%d{yyyy-MM-dd}.%i.log</fileNamePattern>  
+      <timeBasedFileNamingAndTriggeringPolicy  
+          class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">  
+        <maxFileSize>10 MB</maxFileSize>  
+      </timeBasedFileNamingAndTriggeringPolicy>
+    </rollingPolicy>  
+  </appender>  
+  
+  <!-- Console output -->  
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">  
+      <encoder>  
+          <pattern>
+          		<!-- 2016-7-13 10:54:07|SimpleAsyncTaskExecutor-1|INFO||{queueTest,messageId:我我我我,messageHeader=MessageProperties [headers={}, timestamp=null, messageId=我我我我, userId=null, appId=null, clusterId=null, type=null, correlationId=null, replyTo=null, contentType=null, contentEncoding=null, contentLength=0, deliveryMode=NON_PERSISTENT, expiration=null, priority=null, redelivered=false, receivedExchange=, receivedRoutingKey=queueTest, deliveryTag=1, messageCount=0],messageBody:的问问我}|LogListening.java|38| -->
+              %d{yyyy-M-d HH:mm:ss}|%t|%p|%X{userId}|%m|%F|%L|%n
+          </pattern>  
+          <charset>UTF-8</charset>
+      </encoder>  
+  </appender>  
+  
+  <logger name="com.taikang.web.controller" level="ERROR" additivity="false">  
+    <appender-ref ref="queuelog" />  
+  </logger> 
+   <root level="INFO">  
+    <appender-ref ref="STDOUT" />
+  </root>   
+  
+</configuration>  
